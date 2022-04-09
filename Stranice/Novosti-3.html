@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/glavni.css" rel="stylesheet"/>
+    <link href="/css/Novosti.css" rel="stylesheet"/>
+
+    <link rel="icon" href="/img/Algebra-logo.png">
+    <title>SUPIT - proektni zadatak</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: rgb(0, 0, 0);">
+
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="/index.html"><img src="/img/Algebra-logo.png" alt="Logo" style="width: 40px;"></a></li>
+            <li class="nav-item"><a href="/index.html"><i class="material-icons">house</i>Početna</a></li>
+            <li class="nav-item"><a href="/Stranice/O nama.html"><i class="material-icons">question_answer</i>O nama</a></li>
+            <li class="nav-item"><a href="/Stranice/Novosti.html"><i class="material-icons">info</i>Novosti</a></li>
+            <li class="nav-item"><a href="/Stranice/Nastavni plan.html"><i class="material-icons">info</i>Nastavni plan</a></li>
+            <li class="nav-item"><a href="#" id="myBtn"><i class="material-icons">mail</i>Kontakt</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="crop" id="SlikaContainer1">
+        <img src="/img/novost3.jpg" alt="novost3.jpg" id="Slika1">
+    </div>
+
+    <div class="container-fluid" id="Naslov1">
+        <h1>Digitalno Junior ljeto</h1>
+    </div>
+
+    <div class="container-fluid" id="txt1">
+        <p>
+            Algebra Junior organizira edukativne i zabavne ljetne
+            praznike za sve osnovnoškolce! I ove smo godine
+            pripremili digitalne radionice za djecu čiji je fokus
+            rješavanja raznih problema korištenjem tehnologije,
+            multimedije, digitalnog dizajna i komunikacija te
+            stvaranju sadržaja u svim multimedijskim i softverskim
+            oblicima. Radionice se održavaju u sklopu Digitalnog
+            ljetnog kampa u Crikvenici i Digitalne ljetne škole u
+            Zagrebu kako bismo se družili, zabavljali i učili i na
+            moru i na kontinentu! Na digitalnom kampu i u školi
+            provodit će se dva različita programa koji su
+            namijenjena djeci od 1. do 8. razreda. Ovisno o
+            odabranom terminu, polaznici će prolaziti kroz 1. ili 2.
+            program, a u slučaju pohađanja dvotjednih programa –
+            oba. U prvom programu nađe nindže uče biti glazbeni
+            menadžeri dok su u drugom novinari i kreatori
+            informacija masovnih medija. Provjerite termine, cijene
+            i lokacije škole i kampa na sljedećem linku.
+        </p>
+    </div>
+
+    <div class="crop" id="SlikaContainer">
+        <img src="/img/zaiskri-bg.jpg" alt="Zaiskri.jpg" id="Slika1">
+        <div>
+            <h4>budi izvrstan u onom što voliš <br><span>zaiskri</span ></h4>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="material-icons">mail</i>Kontaktirajte nas</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="POST">
+                    <div class="form-group">
+                        <label for="txtName">Puno ime:</label>
+                        <input type="text" class="form-control" name="name" id="txtName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail">Email:</label>
+                        <input type="email" class="form-control" name="email" id="txtEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ddImportance">Važnost poruke:</label>
+                        <select class="form-control" name="importance" id="ddImportance" required>
+                          <option>Visoka</option>
+                          <option>Niska</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Vaša poruka:</label>
+                        <textarea class="form-control" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" name="newsletter" id="txtNewsletter">
+                        <label class="form-check-label" for="txtNewsletter">Primaj newsletter</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Pošalji</button>
+                    <button type="reset" class="btn btn-danger" id="btn-odustani">Odustani</button>
+                </form>
+            </div>
+        </div>
+      
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+
+    <script src="/js/Kontakt.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+#Naslov1{
+    margin-top: 20px;
+    font-weight: bold;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-color: orange;
+    text-align: center;
+}
+
+#Naslov2{
+    text-align: center;
+    color: darkred;
+    padding-top: 50px;
+
+}
+
+#SymbolNaslov2{
+    font-size: 30px;
+    color:darkred
+}
+
+
+#fancyTxts{
+    background-color: rgba(255, 182, 193, 0.11);
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+#fancyTxt, #fancyTxt1{
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+}
+
+table{
+    width: auto;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 5px 5px ;
+}
+
+.Table{
+    margin-top: 35px;
+}
+
+.tr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+tbody{
+    border-spacing: 5px 5px;
+}
+
+th, td {
+    padding: 8px;
+    color: grey;
+  }
+
+
+th{
+    border: solid rgba(128, 128, 128, 0.349) thin;
+    text-transform: uppercase;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 0.1rem;
+}
+
+h3{
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-color: rgba(128, 128, 128, 0.349);
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: grey;
+    padding: 10px;
+}
+
+td{
+    vertical-align: 0px;
+    border-left: solid rgba(128, 128, 128, 0.349) thin;
+    border-right: solid rgba(128, 128, 128, 0.349) thin;
+    border-bottom: solid rgba(128, 128, 128, 0.349) thin; 
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+td img{
+    margin: auto;
+    display: block;
+    height: 60px;
+}
+
+.TableImg th, .TableImg td {
+    min-width: 280px;
+    border: none;
+  }
+
+  .TableImg th h3 {
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: bold;
+    font-size: 0.69rem;
+    text-align: justify;
+  }
+
+.TableImg td {
+    min-width: 280px;
+    padding-bottom: 50px;
+  }
+
+  /* Set the size of the div element that contains the map */
+#map, .mapouter {
+
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+  }

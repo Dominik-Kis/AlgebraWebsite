@@ -1,0 +1,98 @@
+#Naslov1{
+    margin-top: 70px;
+    font-weight: bold;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-color: orange;
+    text-align: center;
+}
+
+#Plan{
+    margin-top: 128px;
+    margin-left: 10%;
+    min-height: 27.25rem;
+    width: auto;
+}
+
+.wrapper{
+    float: left;
+    min-width: 40%;
+}
+
+.wrapper .search-input{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input .autocom-box{
+    padding: 0px;
+    max-height: 390px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius:  3px;
+    display: none;
+}
+
+.search-input.active .autocom-box li{
+    display: block;
+}
+
+.autocom-box li:hover{
+    background: #efefef;
+}
+
+
+
+#table {
+    float: left;
+    text-align: center;
+    padding: 10px auto;
+    width: auto;
+    margin-left: 5%;
+}
+
+#table tbody td, tfoot td {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#table thead {
+    padding-top: 70px;
+    border-bottom: gray 2px solid;
+}
+
+#table tfoot {
+    font-weight: bold;
+}
+
+th {
+    padding-top: 20px;
+}

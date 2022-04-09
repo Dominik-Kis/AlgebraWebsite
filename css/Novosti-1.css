@@ -1,0 +1,64 @@
+#galerija{
+    text-align:center;
+}
+
+#galerija div{
+    width: 15%;
+    height: 100px;
+    display:inline-block;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#galerija img{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    opacity: 0.8;
+    transition: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+.video-container{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.video-container video{
+    width: 30%;
+}
+
+#galerija img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#Modal-img1 .modal-content, #Modal-img2 .modal-content{
+    background-color: transparent;
+    position: relative;
+    max-width: 100%;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    margin-top: 10%;
+    padding: 0px;
+}
+
+#Modal-img1 .modal-content .modal-body, #Modal-img2 .modal-content .modal-body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Modal-img1 .modal-content img, #Modal-img2 .modal-content img{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Modal-img1, #Modal-img2{
+    text-align: center;
+}

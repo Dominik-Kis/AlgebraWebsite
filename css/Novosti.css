@@ -1,0 +1,101 @@
+#Naslov1{
+    margin-top: 50px;
+    font-weight: bold;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-color: orange;
+    text-align: center;
+}
+
+#Naslov1 h1{
+    font-size: 2.2rem;
+}
+
+.Novost-imgs{
+    background-color: rgba(211, 211, 211, 0.219);
+    margin-top: 7%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 5%;
+    height: 510px;
+    text-align: center;
+}
+
+.Novost-img{
+    width: 250px;
+    height:250px;
+    top:  0px;
+    object-fit:cover;
+    border-radius:50%;
+    border: 10px rgba(211, 211, 211, 0.219) ;
+    border-style:outset;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.Novost-imgs div{
+    display:inline-block;
+    margin-top: 0px;
+    width: 250px;
+    height:250px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Novost-imgs div div{
+    position:sticky;
+    height: 180px;
+    width: 200px;
+    transform: translate(0%, -100%);
+}
+
+.Novost-imgs div div h4{
+    color: white;
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 0.80rem;
+}
+
+.Novost-imgs div div h4 span{
+    color: yellow
+}
+
+#SlikaContainer1 #Slika1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#SlikaContainer1 h4{
+    top: -1000px;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: none;
+}
+
+
+
+#SlikaContainer{
+    margin-top: 0px;
+}
+
+#txt1{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    margin-top: 4rem;
+    margin-bottom: 5.25rem;
+    min-height: 11.4rem;
+}
+
+#txt1 p{
+    font-size: 1.1rem;
+}
+  
